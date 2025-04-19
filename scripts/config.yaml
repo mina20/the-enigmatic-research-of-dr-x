@@ -3,9 +3,9 @@ chunk_size: 500
 chunk_overlap: 50
 embedding_model: "all-MiniLM-L6-v2"
 retriever_top_k: 3
-flan_model: "google/flan-t5-base"
+flan_model: "google/flan-t5-xl"
 device: "cpu" 
 save_path: "output/qa_results.csv"
-tokenizer_name: "google/flan-t5-base"
+tokenizer_name: "google/flan-t5-xl"
 max_length: 512
 top_k: 3
