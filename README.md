@@ -8,6 +8,11 @@ The DRX NLP QA Project is designed to build a Question-Answering (QA) system usi
 - **Answer Retrieval**: Retrieves the most relevant answers from the dataset.
 - **Scalability**: Designed to handle large datasets efficiently.
 - **Customizable**: Easily adaptable to different domains and datasets.
-##To Run
+- **Summary**: Retieves relevent context from query and provide summary for it.
+- **Translation**: Translate the provided text into desireable language.
+  
+## To Run
 -use unicorn main:app --reload
 -run test files from tests folder using python your_test_file.py
+
+
